@@ -17,3 +17,14 @@ pom.xml.asc
 **/*.class
 **/.lein-*
 **/.nrepl-port
+
+# Elixir
+/_build
+/deps
+erl_crash.dump
+*.ez
+
+**/_build
+**/deps
+**/erl_crash.dump
+**/*.ez
